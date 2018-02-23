@@ -3710,7 +3710,6 @@ tbody.collapse.in {
       border-top: 0;
       box-shadow: none; }
       .navbar-collapse.collapse {
-        display: block !important;
         height: auto !important;
         padding-bottom: 0;
         overflow: visible !important; }
@@ -5927,7 +5926,7 @@ body {
     color: white;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: black; }
+      color: #fbc630; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -5936,7 +5935,7 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #031406; }
+      color: #fbc630; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -5965,7 +5964,7 @@ body {
 header.masthead {
   text-align: center;
   color: black;
-  background-color: #fbc630;
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -5974,8 +5973,9 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px; }
+    color: #fbc630;
+    padding-top: 100px;
+    padding-bottom: 25px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -5991,8 +5991,8 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px; }
+    padding-top: 100px;
+    padding-bottom: 25px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       font-style: italic;
@@ -6631,3 +6631,6 @@ body {
 
 .login-menu-item a {
   color: white; }
+
+.welcome-text {
+  margin-bottom: 50px; }
